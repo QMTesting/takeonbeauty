@@ -1,0 +1,26 @@
+---
+layout: default
+title: Types of Testing
+category: Types of Testing
+---
+
+[
+  {
+    "title": "Functional Testing Know the Fundamentals in the SDLC",
+    "url": "/_posts/2025-05-17-Functional-Testing.md",
+    "thumb": "/assets/images/Types/Functional-Testing.png",
+    "label": "Types of Testing"
+  },
+  {
+    "title": "Testing Best Practices and Techniques",
+    "url": "/_posts/2025-05-22-testing-best-practices-techniques.md",
+    "thumb": "/assets/images/Types/software-testing-types.webp",
+    "label": "Types of Testing"
+  },
+  {
+    "title": "JUnit Basics",
+    "url": "/_posts/junit-basics.html",
+    "thumb": "/_posts/assets/images/Types/junit.png",
+    "label": "Types of Testing"
+  }
+]

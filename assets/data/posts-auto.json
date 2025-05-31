@@ -1,0 +1,20 @@
+---
+layout: default
+title: Automation
+category: Automation
+---
+
+[
+  {
+    "title": "Know How To Harness The Power of AI Testing Tools",
+    "url": "/_posts/2025-05-17-automation-testing-tools.md",
+    "thumb": "/assets/images/Auto/automation-testing-tools.png",
+    "label": "Automation"
+  },
+  {
+    "title": "Powerful Automation Tools in the World of Regression Testing",
+    "url": /_posts/2025-05-22-Automation-AI-Tools.md",
+    "thumb": "/assets/images/Auto/Automation-AI-Tools.png",
+    "label": "Automation"
+  }
+]

@@ -1,0 +1,89 @@
+---
+layout: default
+title: "Types of Testing"
+permalink: /types-of-testing/
+---
+
+<nav class="breadcrumbs">
+  <a href="/">Home</a> &gt;
+  <span class="current">Types of Testing</span>
+</nav>
+
+<br/><br/>
+
+<h2 class="post-title" style="font-size: 40px; line-height: 40px; litext-align: center;">Showing posts for:</h2>
+<h2 class="post-label" style="font-size: 35px; line-height: 35px; text-align: center;">Types of Testing</h2>
+
+<div id="related-posts-cat" >
+  {% assign software_posts = site.posts | where_exp: "post", "post.categories contains 'Types of Testing'" %}
+  {% for post in software_posts %}
+    <a href="{{ post.url | relative_url }}" style="text-decoration:  underline; text-align: center;">
+      <img class="related-img" src="{{ post.image | relative_url }}" alt="{{ post.title }}" />
+      <div style="color: #000; font-size: 18px; font-weight: bold;">{{ post.title }}</div>
+    </a>
+  {% endfor %}
+</div>
+
+<style>
+#related-posts-cat {
+  display: grid;
+  gap: 0px;
+  grid-template-columns: repeat(4, 1fr); /* 4 equal-width columns */
+  width: 1025px;
+  font-weight: 900;
+  flex-wrap: wrap;	
+  margin-left: 30px;
+}
+  .related-img {
+  width: 250px;
+  height: 200px;
+  border-radius: 5px;
+} 
+
+@media only screen and (max-width: 780px) {
+  #related-posts-cat {
+  display: grid;
+  gap: 0px;
+  grid-template-columns: repeat(1, 1fr); /* 1 equal-width columns */
+  width: 325px;
+  font-weight: 900;
+  flex-wrap: wrap; 
+} 
+
+ .related-img {
+    width: 320px;
+    height: 200px;
+    margin-top: 30px;
+  }  
+  
+} /* End Mobile */
+
+  @media only screen and (min-width: 820px) and (max-width: 2000px) {
+  /* Change Page Size */
+  body {
+    width: 1400px; /* makes body full width */
+    margin-left: 100px;   /* centers the content if max-width is limited */
+    margin-right: 100px; 	
+  }
+  
+  .container, .wrapper, .content {
+    width: 1025px; /* or whatever width you want */
+    margin-left: 25px;   /* centers the content if max-width is limited */
+    margin-right: 25px; 	
+  }
+
+   .post-title {
+    margin-left: 350px;
+  } 
+  .post-label {
+    margin-left: 350px;
+  }   
+
+  .site-name {
+   margin-top:-10px;
+  }   
+  
+  } / * End Desktop */	
+  
+  
+</style>
