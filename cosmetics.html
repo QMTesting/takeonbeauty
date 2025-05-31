@@ -1,21 +1,21 @@
 ---
 layout: default
-title: Automation
-permalink: /automation/
+title: Cosmetics
+permalink: /cosmetics/
 ---
 
 <nav class="breadcrumbs">
   <a href="/">Home</a> &gt;
-  <span class="current">Automation</span>
+  <span class="current">Cosmetics</span>
 </nav>
 
 <br/><br/>
 
 <h2 class="post-title" style="font-size: 40px; line-height: 40px; text-align: center;">Showing posts for:</h2>
-<h2 class="post-label" style="font-size: 35px; line-height: 35px; text-align: center;">Automation</h2>
+<h2 class="post-label" style="font-size: 35px; line-height: 35px; text-align: center;">Cosmetics</h2>
 
 <div id="related-posts-cat">
-  {% assign software_posts = site.posts | where_exp: "post", "post.categories contains 'Automation'" %}
+  {% assign software_posts = site.posts | where_exp: "post", "post.categories contains 'Cosmetics'" %}
   {% for post in software_posts %}
     <a href="{{ post.url | relative_url }}" style="text-decoration: underline; text-align: center;">
      <img class="related-img" src="{{ post.image | relative_url }}" alt="{{ post.title }}" />
