@@ -1,15 +1,15 @@
 ---
 layout: default
-title: Software Testing
-category: Software Testing
+title: Skin Care
+category: Skin Care
 ---
 
 [
   {
-    "title": "Quality Control vs Quality Assurance Know the Difference",
-    "url": "/_posts/2025-05-16-quality-assurance.md",
-    "thumb": "/assets/images/Quality Control and Quality Assurance.png",
-    "label": "Software Testing"
+    "title": "How To Find The Best Moisturizer for Dry Skin",
+    "url": "/_posts/2025-05-31-moisturizer-dry-skin.md",
+    "thumb": "/assets/images/moisturizer-dry-skin.png",
+    "label": "Skin Care"
   },
   {
     "title": "Software Testing Life Cycle-Know The Best How To Techniques",
