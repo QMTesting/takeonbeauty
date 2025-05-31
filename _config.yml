@@ -60,7 +60,7 @@ baseurl: ""
 #
 
 # Site Logo
-logo: "/images/qaTS.png"
+logo: "/images/cream.png"
 
 permalink: /:title/
 
