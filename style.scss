@@ -1318,22 +1318,31 @@ figcaption {
           border: none;
           cursor: pointer;
           margin-left: 265px;
-        }       
+        } 
+
+	#header-nav a {
+	  white-space: nowrap;
+	}       
 
 	.head-home {
-	  font-weight: 700;	
+	  font-weight: 700;
+	  white-space: nowrap;	
         } 
         .head-test {
-	   font-weight: 700;	
+	   font-weight: 700;
+	   white-space: nowrap;	
         } 
         .head-types {
-	  font-weight: 700;	
+	  font-weight: 700;
+	  white-space: nowrap;	
         } 
         .head-auto {
-	   font-weight: 700;	
+	   font-weight: 700;
+	   white-space: nowrap;	
          }
         .head-devops {
-	   font-weight: 700;	
+	   font-weight: 700;
+	   white-space: nowrap;	
         }         
 
 	.mobile-header-nav {
