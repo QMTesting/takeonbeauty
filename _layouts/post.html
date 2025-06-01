@@ -233,15 +233,15 @@ layout: default
       let starsHtml = "";
 
       for (let i = 0; i < fullStars; i++) {
-        starsHtml += `<i class="fas fa-star" style="color:#bc960d;"></i>`;
+        starsHtml += `<i class="fas fa-star" style="color:#dea8b8;"></i>`;
       }
 
       if (hasHalfStar) {
-        starsHtml += `<i class="fas fa-star-half-alt" style="color:#bc960d;"></i>`;
+        starsHtml += `<i class="fas fa-star-half-alt" style="color:#dea8b8;"></i>`;
       }
 
       for (let i = 0; i < emptyStars; i++) {
-        starsHtml += `<i class="far fa-star" style="color:#bc960d;"></i>`;
+        starsHtml += `<i class="far fa-star" style="color:#dea8b8;"></i>`;
       }
 
       ratingStars.innerHTML = starsHtml;
@@ -252,14 +252,14 @@ layout: default
         commentBlock.style = "border:1px solid #ddd;padding:12px;border-radius:8px;margin-bottom:15px;background:#f9f9f9;";
 
         commentBlock.innerHTML = `
-          <p style="margin:0;font-weight:bold;color:#bc960d;">${entry.name} 
+          <p style="margin:0;font-weight:bold;color:#dea8b8;">${entry.name} 
             <span style="font-weight:normal;color:#999;">(${new Date(entry.timestamp).toLocaleString()})</span>
           </p>
           <p style="margin:8px 0 0;color:#444;">${entry.comment}</p>
-          <p style="margin:6px 0 0;font-size:14px;color:#bc960d;">Rating: 
+          <p style="margin:6px 0 0;font-size:14px;color:#dea8b8;">Rating: 
             ${"★".repeat(entry.rating)}${"☆".repeat(5 - entry.rating)}
           </p>
-          ${entry.reply ? `<div style="margin-top:10px;padding:10px;background:#eee;border-left:4px solid #bc960d;color:#333;">
+          ${entry.reply ? `<div style="margin-top:10px;padding:10px;background:#eee;border-left:4px solid #dea8b8;color:#333;">
             <strong>Reply:</strong> ${entry.reply}
           </div>` : ''}
         `;
@@ -284,7 +284,7 @@ layout: default
   #commentSection {
     border: 5px solid;
     border-radius: 5px;
-    border-color: #bc960d;
+    border-color: #dea8b8;
     padding: 20px;
   } 
 
@@ -293,7 +293,7 @@ layout: default
     #commentSection {
     border: 5px solid;
     border-radius: 5px;
-    border-color: #bc960d;
+    border-color: #dea8b8;
     padding: 20px;
     margin-left: 150px;
       
