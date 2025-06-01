@@ -6,13 +6,13 @@ permalink: /privacy/
 
 ## Last Updated: 2025-05-19
 
-Welcome to QM Testing, located at [https://qmtesting.github.io](https://qmtesting.github.io/) (the “Site”). We acknowledge the significance of online privacy to users of our website.
+Welcome to Take on Beauty, located at [https://takeonbeauty.com](https://takeonbeauty.com) (the “Site”). We acknowledge the significance of online privacy to users of our website.
 
 This privacy policy governs all content available on the Site and its associated properties.
 
 This statement also governs our privacy policies with respect to those users of the Site (“Visitors”) who visit or subscribe/register and make use of the Services offered (collectively, “Services”) by the Site.
 
-References to "us," "our," "we", or "I" in this document pertain to  QM Testing / [https://qmtesting.github.io](https://qmtesting.github.io/).
+References to "us," "our," "we", or "I" in this document pertain to  Take on Beauty / [https://takeonbeauty.com](https://takeonbeauty.com).
 
 This page informs “Visitors” of our policies regarding the collection, use and disclosure of personally identifiable information ("Personal Information") when using our Services.
 
@@ -20,7 +20,7 @@ In this Privacy Policy, when we mention Personal Information, we are referring t
 
 Please familiarize yourself with this Privacy Policy before engaging with this Site or any of its Services. By utilizing this Site and its offerings, you affirm your acceptance of this Privacy Policy. If you disagree with its terms and policies, kindly refrain from utilizing the Site or its Services.
 
-Before proceeding to any page on this site, kindly review the privacy policy. Your continued use of our Services at QM Testing / [https://qmtesting.github.io](https://qmtesting.github.io/) implies your acceptance of these policies.
+Before proceeding to any page on this site, kindly review the privacy policy. Your continued use of our Services at Take on Beauty / [https://takeonbeauty.com](https://takeonbeauty.com) implies your acceptance of these policies.
 
 ## Information Collection
 
@@ -238,7 +238,7 @@ We recommend reviewing this Privacy Policy periodically for any alterations. Cha
 
 ## Contact Us
 
-If you have any questions please contact us at Ask.TestingQM@outlook.com
+If you have any questions please contact us at takeonbeauty@outlook.com
 
 <style>
   @media only screen and (min-width: 820px) and (max-width: 2000px) {
