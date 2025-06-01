@@ -30,7 +30,7 @@ Thank you, but we are currently not offering guest posting nor contributions to 
 
 ### Are products available for purchase here?
 
-No, we don't sell any beauty, bath or home care products. We exclusively share beauty, bath or home care recipes for you to create at home.
+No, we don't sell any beauty, bath or home care products. We exclusively share beauty, bath or hair care advice, tips, and reviews.
 
 ## Thank You
 
