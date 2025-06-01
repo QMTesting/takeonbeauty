@@ -1285,6 +1285,7 @@ figcaption {
 
         /* Desktop Search Button Area */
         /* Desktop Search Container */
+	       
 
 	#header-nav {
 	  display: flex;
@@ -1292,6 +1293,9 @@ figcaption {
 	  gap: 15px;
 	  padding: 15px;
 	  flex-wrap: nowrap;
+	  width: 1000px; 
+	  background: ##dea8b8; 
+	  margin-left: 300px; 	
 	}
 	
 	.desktop-search {
@@ -1305,7 +1309,11 @@ figcaption {
 	  display: none;
 	  align-items: center;
 	  gap: 5px;
-	}       
+	} 
+
+	.mobile-header-nav {
+            display: none;
+          }        
 
         /* Optional: Prevent flicker before JS */
         body.js-enabled #desktop-search-form {
