@@ -9,7 +9,7 @@ name: Take on Beauty
 description: 
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: "/images/cream-logo-128.png"
+avatar: "/images/cream.png"
 
 #
 # Flags below are optional
@@ -60,7 +60,7 @@ baseurl: ""
 #
 
 # Site Logo
-logo: "/images/cream-logo-128.png"
+logo: "/images/cream.png"
 
 permalink: /:title/
 
