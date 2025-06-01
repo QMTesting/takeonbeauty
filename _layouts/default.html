@@ -195,18 +195,20 @@
 
         /* Desktop Search Button Area */
         /* Desktop Search Container */
-          #header-nav {
-            display: block
-          }  
+         #header-nav {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            padding: 15px;
+            flex-wrap: nowrap;
+            width: 1000px; 
+            background: ##dea8b8; 
+            margin-left: 300px; 
+          }
           .mobile-header-nav {
             display: none;
           }  
-         #header-nav {
-          display: inline-block;
-          width: 1000px; 
-          background: ##dea8b8; 
-          margin-left: 300px; 
-         } 
+         
          #header-nav a {
           text-decoration: none;
           font-weight: 900;
@@ -219,9 +221,10 @@
            margin-left: 50px;
          } 
         .desktop-search {
+          display: flex;
+          align-items: center;
+          gap: 5px;
           position: relative;
-          display: inline-block;
-          margin-left: 0px;
         }
         
         #desktop-search-toggle {
@@ -232,17 +235,11 @@
           margin-left: 265px;
           margin-top: 35px;
         }
-        
         #desktop-search-form {
-          flex-direction: column;
-          align-items: flex-start;
+          display: none;
+          align-items: center;
           gap: 5px;
-          margin-top: 0px; 
-          margin-left: 705px;
-        }
-
-       
-        
+        }    
         #desktop-search-close {
           font-size: 18px;
           background: none;
