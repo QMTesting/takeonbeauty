@@ -1309,7 +1309,37 @@ figcaption {
 	  display: none;
 	  align-items: center;
 	  gap: 5px;
+	  margin-left: 25px;	
 	} 
+
+	#desktop-search-toggle {
+          font-size: 18px;
+          background: none;
+          border: none;
+          cursor: pointer;
+          margin-left: 265px;
+        }       
+
+	.head-home {
+          margin-left: 30px;
+	  font-weight: 700;	
+        } 
+        .head-test {
+           margin-left: 30px;
+	   font-weight: 700;	
+        } 
+        .head-types {
+          margin-left: 30px;
+	  font-weight: 700;	
+        } 
+        .head-auto {
+           margin-left: 30px;
+	   font-weight: 700;	
+         }
+        .head-devops {
+           margin-left: 30px;
+	   font-weight: 700;	
+        }         
 
 	.mobile-header-nav {
             display: none;
