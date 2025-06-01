@@ -70,11 +70,11 @@ layout: default
 
     <!-- Name -->
     <label for="nameField" style="display:block;margin-bottom:8px;font-weight:bold;color:#000;">Name *</label>
-    <input id="nameField" name="entry.533251169" placeholder="Your Name" required style="width:100%;padding:10px;margin-bottom:20px;border:1px solid #bc960d;border-radius:6px;background:#f3efdf;" type="text"/>
+    <input id="nameField" name="entry.533251169" placeholder="Your Name" required style="width:100%;padding:10px;margin-bottom:20px;border:1px solid #dea8b8;border-radius:6px;background:#f5eaed;" type="text"/>
 
     <!-- Comment -->
     <label for="commentField" style="display:block;margin-bottom:8px;font-weight:bold;color:#000;">Comment *</label>
-    <textarea id="commentField" name="entry.1803333929" placeholder="Your Comment" required rows="5" style="width:100%;padding:10px;margin-bottom:20px;border:1px solid #bc960d;border-radius:6px;background:#f3efdf;"></textarea>
+    <textarea id="commentField" name="entry.1803333929" placeholder="Your Comment" required rows="5" style="width:100%;padding:10px;margin-bottom:20px;border:1px solid #dea8b8;border-radius:6px;background:#f5eaed;"></textarea>
 
     <!-- Post URL -->
     <input id="postUrlField" name="entry.1243799819" value="{{ page.url | absolute_url }}" type="hidden"/>
@@ -83,12 +83,12 @@ layout: default
     <input id="honeypot" name="honeypot_field" style="display:none;" type="text"/>
 
     <!-- Submit -->
-    <button type="submit" style="width:100%;padding:12px;background:#bc960d;color:black;border:none;border-radius:6px;font-size:18px;cursor:pointer;font-weight:900;">Post Comment</button>
+    <button type="submit" style="width:100%;padding:12px;background:#dea8b8;color:black;border:none;border-radius:6px;font-size:18px;cursor:pointer;font-weight:900;">Post Comment</button>
     
     <iframe name="hidden_iframe" style="display:none;" onload="afterSubmit()"></iframe>
   </form>
 
-  <div id="thankyou_message" style="display:none;text-align:center;margin-top:20px;font-size:18px;color:#dd4472;">
+  <div id="thankyou_message" style="display:none;text-align:center;margin-top:20px;font-size:18px;color:#f5eaed;">
     🎉 Thank you for your comment!
   </div>
 </div>
@@ -160,7 +160,7 @@ layout: default
   <h3>🗨️ Reader Comments</h3>
   <div style="margin: 10px 0;">
     <strong>Average Rating: </strong><span id="ratingDisplay">Loading...</span>
-    <span id="ratingStars" style="color: #bc960d; font-size: 20px;"></span>
+    <span id="ratingStars" style="color: #dea8b8; font-size: 20px;"></span>
   </div>
   <div id="commentsList" style="margin-top: 10px;"></div>
 </div>
@@ -176,7 +176,7 @@ layout: default
       const value = star.getAttribute("data-value");
       document.getElementById("ratingField").value = value;
       document.querySelectorAll(".star").forEach(s => {
-        s.style.color = s.getAttribute("data-value") <= value ? "#bc960d" : "#aaa";
+        s.style.color = s.getAttribute("data-value") <= value ? "#dea8b8" : "#aaa";
       });
     });
   });
