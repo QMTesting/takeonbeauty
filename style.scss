@@ -1289,7 +1289,7 @@ figcaption {
 
 	#header-nav {
 	  display: flex;
-	  align-items: center;
+	  align-items: left;
 	  gap: 15px;
 	  padding: 15px;
 	  flex-wrap: nowrap;
@@ -1300,7 +1300,7 @@ figcaption {
 	
 	.desktop-search {
 	  display: flex;
-	  align-items: center;
+	  align-items: left;
 	  gap: 5px;
 	  position: relative;
 	}
