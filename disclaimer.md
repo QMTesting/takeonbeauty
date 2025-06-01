@@ -20,7 +20,7 @@ The information and recommendations provided are based on personal experience an
 
 As a “Visitor” / “Customer,” it is your responsibility to consult with your own professionals regarding any matters discussed within the content of the Site. We, the authors or the Site cannot accept responsibility for the actions or resulting consequences of any actions taken by any “Visitor” / “Customer.”
 
-The content of our articles is not meant to substitute for individualized guidance from a qualified healthcare provider and should not be construed as medical advice. We strongly encourage readers to conduct their own research and consult with their own health care professionals to determine if the information contained on the Site is suitable for their specific needs and purposes.
+The content of our articles is not meant as a substitute for individualized guidance from a qualified healthcare provider and should not be construed as medical advice. We strongly encourage readers to conduct their own research and consult with their own health care professionals to determine if the information contained on the Site is suitable for their specific needs and purposes.
 
 ## Contact Us
 
