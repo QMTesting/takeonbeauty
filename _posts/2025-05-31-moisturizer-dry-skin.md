@@ -2,11 +2,11 @@
 layout: post
 title: "How To Find The Best Moisturizer for Dry Skin"
 categories: ["Skin Care"]
-image: "/assets/images/Skin/moisurizer-dry-skin.webp"
+image: "/assets/images/Skin/moisturizer-dry-skin.webp"
 ---
 
 <figure>
-  <img src="/assets/images/Skin/moisurizer-dry-skin.webp" alt="Moisturizer for dry skin" />
+  <img src="/assets/images/Skin/moisturizer-dry-skin.webp" alt="Moisturizer for dry skin" />
   <figcaption></figcaption>
 </figure>
 
