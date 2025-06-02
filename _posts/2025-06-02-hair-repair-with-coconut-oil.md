@@ -6,7 +6,7 @@ image: "/assets/images/Hair/hair-conditioner-coconut-oil.webp"
 ---
 
 <figure>
-  <img src="/assets/images/Bath/Hair/hair-conditioner-coconut-oil.webp" altB="Bubble bath for dry skin" />
+  <img src="/assets/images/Hair/hair-conditioner-coconut-oil.webp" altB="Bubble bath for dry skin" />
   <figcaption>Image on Freepik</figcaption>
 </figure>
 
