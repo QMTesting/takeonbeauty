@@ -1316,14 +1316,14 @@ figcaption {
 	}
 	
 	.desktop-search {
-	  display: flex;
+	  display: inline;
 	  align-items: left;
 	  gap: 5px;
 	  position: relative;
 	}
 	
 	#desktop-search-form {
-	  display: none;
+	  display: inline;
 	  align-items: center;
 	  gap: 5px;
 	  margin-left: 25px;	
