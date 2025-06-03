@@ -1386,56 +1386,87 @@ figcaption {
      width: 350px;
    } 
 
-
-.mobile-header-nav {
-	  display: inline;
-	   width: 250px; 
-	  	
-	}
-	
-	.mobile-search {
-	  display: inline;
-	  align-items: left;
-	  gap: 5px;
-	  position: relative;
-	}
-	
-	#mobile-search-form {
-	  display: inline;
-	  align-items: center;
-	  gap: 5px;
-	  margin-left: 25px;	
-	} 
-
-	#mobile-search-toggle {
-          font-size: 20px;
+         .mobile-header-nav {
+            display: block;
+          } 
+        
+        #mobile-search-toggle {
+          position: fixed;
+          top: 25px;
+          right: 10px;
+          font-size: 18px;
           background: none;
           border: none;
           cursor: pointer;
-          margin-left: 150px;
+          z-index: 10001; /* Above other elements */
+        }
+        
+        #mobile-search-form {
+          position: fixed;
+          top: 10px;
+          right: 10px;
+          background: white;
+          padding: 10px;
+          border-radius: 8px;
+          box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+          z-index: 10000;
+          display: flex;
+          flex-direction: column;
+          align-items: flex-end;
+        }
+
+        #mobile-search-close {
+          font-size: 18px;
+          background: none;
+          border: none;
+          color: red;
+          cursor: pointer;
+          align-self: flex-end;
+          
+        }
+        
+        #mobile-search-form-element {
+          display: flex;
+          gap: 5px;
+        }
+        
+        #mobile-search-input {
+          display: inline-block;
+          width: 180px;
+          padding: 6px 8px;
+          font-size: 14px;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+          background: white;
+          color: black;
+        }
+        
+        #mobile-submit-btn {
+          font-size: 16px;
+          background: none;
+          border: none;
+          cursor: pointer;
+        }
+
+        .head-home {
+          display: none;
         } 
-	       
-	       
+        .head-test {
+          display: none;
+        } 
+        .head-types {
+          display: none;
+        } 
+        .head-auto {
+          display: none;
+        }
+        .head-devops {
+          display: none;
+        } 
+        .desktop-header-nav {
+          display: none
+        }     
 
-
-   .head-home {
-  display: none;
-} 
-.head-test {
-  display: none;
-} 
-.head-types {
-  display: none;
-} 
-.head-auto {
-  display: none;
-}
-.head-devops {
-  display: none;
-} 
-.desktop-header-nav {
-  display: none
-}     
 } /* End Mobile */
 	
       
