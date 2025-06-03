@@ -73,27 +73,24 @@
       <div class="container">
         <header class="masthead clearfix">
           
-          <div class="mobile-header-nav">
-
-            <div class="mobile-search" style="display: flex; align-items: center; gap: 5px; position: relative;">
-              
-              <!-- Search Form (hidden by default) -->
-              <div id="mobile-search-form" style="display: none; align-items: center; gap: 5px;">
-                <form id="mobile-search-form-element" style="display: flex; gap: 5px;">
-                  <input type="text" id="mobile-search-input" style="padding: 4px 6px; font-size: 14px; border-radius: 5px; border: 1px solid #ccc; width: 60px;" placeholder="Search..." />
-                  <button type="submit" id="mobile-submit-btn" style="font-size: 18px; background: none; border: none; cursor: pointer;">🔍</button>
-                </form>
-                <button id="mobile-search-close" aria-label="Close Search" style="font-size: 18px; background: none; border: none; color: red; cursor: pointer;">❌</button>
-              </div>
+         <div class="mobile-header-nav">
+          <div class="mobile-search" style="position: relative; display: inline-block;">
+            <!-- Magnifying Glass Icon -->
+            <button id="mobile-search-toggle" aria-label="Search" style="font-size: 24px; background: none; border: none; cursor: pointer;">
+              🔍
+            </button>
         
-              <!-- Search Toggle Button -->
-              <button id="mobile-search-toggle" aria-label="Search" style="font-size: 18px; background: none; border: none; cursor: pointer;">
-                🔍
-              </button>
+            <!-- Search Form Container -->
+            <div id="mobile-search-form" style="display: none; flex-direction: column; align-items: flex-start; gap: 5px;">
+              <button id="mobile-search-close" aria-label="Close Search" style="font-size: 18px; background: none; border: none; color: red; cursor: pointer; align-self: flex-end;">❌</button>
+        
+              <form id="mobile-search-form-element" style="display: flex; gap: 5px;">
+                <input type="text" id="mobile-search-input" placeholder="Search..." />
+                <button type="submit" id="mobile-submit-btn" style="font-size: 19px; background: none; border: none; cursor: pointer;">🔍</button>
+              </form>
             </div>
-           
+          </div>
         </div>
-
           
           <div class="header-top">
             <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" alt="{{ site.title }} avatar" /></a>
@@ -364,52 +361,47 @@
 <!-- Mobile Search Toggle UI -->
     
  <script>
-   document.addEventListener("DOMContentLoaded", function () {
-    const mobiletoggleBtn = document.getElementById("mobile-search-toggle");
-    const mobileformContainer = document.getElementById("mobile-search-form");
-    const mobilecloseBtn = document.getElementById("mobile-search-close");
-    const mobileinput = document.getElementById("mobile-search-input");
-    const mobileform = document.getElementById("mobile-search-form-element");
+document.addEventListener("DOMContentLoaded", function () {
+  const mobileToggleBtn = document.getElementById("mobile-search-toggle");
+  const mobileFormContainer = document.getElementById("mobile-search-form");
+  const mobileCloseBtn = document.getElementById("mobile-search-close");
+  const mobileInput = document.getElementById("mobile-search-input");
+  const mobileForm = document.getElementById("mobile-search-form-element");
 
-  // Show search UI
-  mobiletoggleBtn.addEventListener("click", function () {
-    alert("in click toggle");
-    mobileformContainer.style.display = "flex";
-    mobiletoggleBtn.style.display = "none";
-    mobileinput.focus();
+  // Show the search form
+  mobileToggleBtn.addEventListener("click", function () {
+    mobileFormContainer.style.display = "flex";
+    mobileToggleBtn.style.display = "none";
+    mobileInput.focus();
   });
 
-  // Close (X) button
-  mobilecloseBtn.addEventListener("click", function () {
+  // Handle close (X) button
+  mobileCloseBtn.addEventListener("click", function () {
     hideSearchForm();
   });
 
-  // Submit handler
-  mobileform.addEventListener("submit", function (e) {
+  // Handle form submission
+  mobileForm.addEventListener("submit", function (e) {
     e.preventDefault();
-
-    const query = mobileinput.value.trim();
+    const query = mobileInput.value.trim();
     if (!query) return;
 
-    // Hide everything before redirect
+    // Hide form elements before redirection
     hideSearchForm();
 
-    // Redirect to search results page
-    window.location.href = /search-results/?q=${encodeURIComponent(query)};
+    // Redirect to results page
+    window.location.href = `/search-results/?q=${encodeURIComponent(query)}`;
   });
 
+  // Function to hide everything
   function hideSearchForm() {
-    mobileformContainer.style.display = "none";         // Hide form container
-    mobiletoggleBtn.style.display = "inline-block";     // Show main icon
-    mobileinput.value = "";                             // Clear text
+    mobileFormContainer.style.display = "none";
+    mobileToggleBtn.style.display = "inline-block";
+    mobileInput.value = "";
   }
 });
-</script> 
- 
-
  
 </script>
- 
   
 <!-- SEARCH RESULTS JAVA - MOBILE-END -->
     
