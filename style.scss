@@ -1374,67 +1374,67 @@ figcaption {
        } /* End Desktop */  
 
        @media only screen and (max-width: 767px) {
-          
-          .mobile-header-nav {
-            display: inline;
-          }  
-          .welcome-heding {
-            text-align: center;
-            margin-left: 15px;
-            font-size: 30px;
-            width: 350px;
-            }
-           .welcome-text {
-             text-align: center;
-             margin-left: 15px;
-             width: 350px;
-           } 
+    .welcome-heding {
+    text-align: center;
+    margin-left: 15px;
+    font-size: 30px;
+    width: 350px;
+    }
+   .welcome-text {
+     text-align: center;
+     margin-left: 15px;
+     width: 350px;
+   } 
+
+  .mobile-header-nav {
+    display: inline;
+  }
+
+  .mobile-search {
+    display: inline;
+    margin-left: 200px;
+    gap: 5px;
+    position: relative;
+    width: 250px;
+  }
+
+  /* REMOVE display: inline here */
+  #mobile-search-form {
+    margin-left: 200px;
+    gap: 5px;
+    width: 250px;
+    background: #edd3da;
+  }
+
+  #mobile-search-toggle {
+    font-size: 18px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 200px;
+  }
+
+   .head-home {
+  display: none;
+} 
+.head-test {
+  display: none;
+} 
+.head-types {
+  display: none;
+} 
+.head-auto {
+  display: none;
+}
+.head-devops {
+  display: none;
+} 
+.desktop-header-nav {
+  display: none
+}     
+} /* End Mobile */
 	
-	.mobile-search {
-	  display: inline;
-	  margin-left: 200px;
-	  gap: 5px;
-	  position: relative;
-	  width: 250px;	
-	}
-	
-	#mobile-search-form {
-	  display: inline;
-	  margin-left: 200px;
-	  gap: 5px;
-	  width: 250px;
-	  background: #edd3da;	
-	} 
-
-	#mobile-search-toggle {
-          font-size: 18px;
-          background: none;
-          border: none;
-          cursor: pointer;
-          margin-left: 200px;
-	 }
-	       
-        .head-home {
-          display: none;
-        } 
-        .head-test {
-          display: none;
-        } 
-        .head-types {
-          display: none;
-        } 
-        .head-auto {
-          display: none;
-        }
-        .head-devops {
-          display: none;
-        } 
-        .desktop-header-nav {
-          display: none
-        }     
-
-        } /* End Mobile*/
-
+      
   body {
     background-color: #edd3da; /* Replace with your desired color */
   }
