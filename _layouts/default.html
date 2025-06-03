@@ -347,12 +347,17 @@
     const menu = document.getElementById("mobileMenu");
     const hamburger = document.getElementById("hamburgerIcon");
     const searchBox = document.getElementById("mobile-search-toggle");
+    const hamIcon = document.getElementById("hamburgerIcon");
+    const closeIcon = document.getElementById("close-icon");
 
     menu.classList.toggle("hidden");
     hamburger.classList.toggle("hidden");
 
     if (searchBox) {
       searchBox.style.display = menu.classList.contains("hidden") ? "block" : "none";
+    } else {
+      hamIcon.style.background = "white";
+      closeIcon.style.background = "white";
     }
   }
 </script>    
