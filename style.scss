@@ -1387,7 +1387,7 @@ figcaption {
    } 
 
 .mobile-header-nav {
-    display: inline;
+    width: 250px;
   }
 
  
@@ -1395,14 +1395,14 @@ figcaption {
     display: flex;
     align-items: center;
     gap: 5px;
-    width: 200px;
+    width: 175px;
     padding: 10px;
   }
   	       
 
   #mobile-search-form {
     background: #edd3da;
-    width: 200px;
+    width: 175px;
   }
 
   #mobile-search-input {
