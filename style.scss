@@ -1391,14 +1391,14 @@ figcaption {
            } 
 	
 	.mobile-search {
-	  display: flex;
+	  display: inline;
 	  align-items: left;
 	  gap: 5px;
 	  position: relative;
 	}
 	
 	#mobile-search-form {
-	  display: none;
+	  display: inline;
 	  align-items: center;
 	  gap: 5px;
 	  margin-left: 10px;	
