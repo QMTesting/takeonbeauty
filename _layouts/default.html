@@ -360,40 +360,50 @@
 
 <!-- SEARCH RESULTS JAVA - MOBILE -->
 <!-- Mobile Search Toggle UI -->
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-  const mobileToggleBtn = document.getElementById("mobile-search-toggle");
-  const mobileFormContainer = document.getElementById("mobile-search-form");
-  const mobileCloseBtn = document.getElementById("mobile-search-close");
-  const mobileInput = document.getElementById("mobile-search-input");
-  const mobileForm = document.getElementById("mobile-search-form-element");
+ <script>
+   document.addEventListener("DOMContentLoaded", function () {
+    const mobiletoggleBtn = document.getElementById("mobile-search-toggle");
+    const mobileformContainer = document.getElementById("mobile-search-form");
+    const mobilecloseBtn = document.getElementById("mobile-search-close");
+    const mobileinput = document.getElementById("mobile-search-input");
+    const mobileform = document.getElementById("mobile-search-form-element");
 
-  mobileToggleBtn.addEventListener("click", function () {
-    mobileFormContainer.classList.remove("hidden");
-    mobileFormContainer.classList.add("flex");
-    mobileToggleBtn.style.display = "none";
-    mobileInput.focus();
+  // Show search UI
+  mobiletoggleBtn.addEventListener("click", function () {
+    mobileformContainer.style.display = "flex";
+    mobiletoggleBtn.style.display = "none";
+    mobileinput.focus();
   });
 
-  mobileCloseBtn.addEventListener("click", function () {
-    mobileHideSearchForm();
+  // Close (X) button
+  mobilecloseBtn.addEventListener("click", function () {
+    hideSearchForm();
   });
 
-  mobileForm.addEventListener("submit", function (e) {
+  // Submit handler
+  mobileform.addEventListener("submit", function (e) {
     e.preventDefault();
-    const mobileQuery = mobileInput.value.trim();
-    if (!mobileQuery) return;
-    mobileHideSearchForm();
-    window.location.href = `/search-results/?q=${encodeURIComponent(mobileQuery)}`;
+
+    const query = mobileinput.value.trim();
+    if (!query) return;
+
+    // Hide everything before redirect
+    hideSearchForm();
+
+    // Redirect to search results page
+    window.location.href = /search-results/?q=${encodeURIComponent(query)};
   });
 
-  function mobileHideSearchForm() {
-    mobileFormContainer.classList.remove("flex");
-    mobileFormContainer.classList.add("hidden");
-    mobileToggleBtn.style.display = "inline-block";
-    mobileInput.value = "";
+  function hideSearchForm() {
+    mobileformContainer.style.display = "none";         // Hide form container
+    mobiletoggleBtn.style.display = "inline-block";     // Show main icon
+    mobileinput.value = "";                             // Clear text
   }
 });
+</script> 
+ 
+
+ 
 </script>
  
   
