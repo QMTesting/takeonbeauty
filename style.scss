@@ -1392,14 +1392,14 @@ figcaption {
 	
 	.mobile-search {
 	  display: inline;
-	  align-items: left;
+	  align-items: right;
 	  gap: 5px;
 	  position: relative;
 	}
 	
 	#mobile-search-form {
 	  display: inline;
-	  align-items: center;
+	  align-items: right;
 	  gap: 5px;
 	  margin-left: 10px;	
 	} 
@@ -1409,7 +1409,7 @@ figcaption {
           background: none;
           border: none;
           cursor: pointer;
-          margin-left: 325px;
+          margin-left: 330px;
 	 }
 	       
         .head-home {
