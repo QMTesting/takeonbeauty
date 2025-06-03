@@ -210,6 +210,16 @@ img {
   }
 }
 
+@media only screen and (max-width: 780px) {
+.site-avatar {
+  margin-top: -40px;	
+}	
+.site-name {
+  margin-top: -40px;	
+}
+} /* End Mobile */
+	
+
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
