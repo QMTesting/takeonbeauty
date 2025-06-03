@@ -1422,6 +1422,17 @@ figcaption {
     display: block;
   }
 
+  /* Ensure toggle is visible initially */
+#mobile-search-toggle {
+  display: inline-block !important;
+}
+
+/* Hide form initially */
+#mobile-search-form {
+  display: none;
+}
+	       
+
   .mobile-search {
     display: flex;
     align-items: center;
