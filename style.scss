@@ -1376,7 +1376,7 @@ figcaption {
        @media only screen and (max-width: 767px) {
           
           .mobile-header-nav {
-            display: block;
+            display: inline;
           }  
           .welcome-heding {
             text-align: center;
@@ -1389,71 +1389,27 @@ figcaption {
              margin-left: 15px;
              width: 350px;
            } 
+	
+	.mobile-search {
+	  display: flex;
+	  align-items: left;
+	  gap: 5px;
+	  position: relative;
+	}
+	
+	#mobile-search-form {
+	  display: none;
+	  align-items: center;
+	  gap: 5px;
+	  margin-left: 10px;	
+	} 
 
-        .mobile-search {
-          position: relative;
-          display: inline-block;
-          margin-left: 0px;
-        }
-      
-        
-        #mobile-search-toggle {
-          position: fixed;
-          top: 25px;
-          right: 10px;
+	#mobile-search-toggle {
           font-size: 18px;
           background: none;
           border: none;
           cursor: pointer;
-          z-index: 10001; /* Above other elements */
-        }
-        
-        #mobile-search-form {
-          position: fixed;
-          top: 10px;
-          right: 10px;
-          background: white;
-          padding: 10px;
-          border-radius: 8px;
-          background: #edd3da;
-          z-index: 10000;
-          display: flex;
-          flex-direction: column;
-          align-items: flex-end;
-        }
-
-        #mobile-search-close {
-          font-size: 18px;
-          background: none;
-          border: none;
-          color: red;
-          cursor: pointer;
-          align-self: flex-end;
-          
-        }
-        
-        #mobile-search-form-element {
-          display: flex;
-          gap: 5px;
-        }
-        
-        #mobile-search-input {
-          display: inline-block;
-          width: 180px;
-          padding: 6px 8px;
-          font-size: 14px;
-          border: 1px solid #ccc;
-          border-radius: 5px;
-          background: white;
-          color: black;
-        }
-        
-        #mobile-submit-btn {
-          font-size: 16px;
-          background: none;
-          border: none;
-          cursor: pointer;
-        }
+          margin-left: 265px;
 
         .head-home {
           display: none;
