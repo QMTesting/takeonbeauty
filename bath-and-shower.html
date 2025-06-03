@@ -11,8 +11,39 @@ permalink: /bath-and-shower/
 
 <br/><br/>
 
-<h2 class="post-title" style="font-size: 40px; line-height: 40px; litext-align: center;">Showing posts for:</h2>
-<h2 class="post-label" style="font-size: 35px; line-height: 35px; text-align: center;">Bath and Shower</h2>
+<div class="cat-header">
+  <img src="/assets/images/bath-shower-category.webp" alt="Bath and Shower Category" style="width: 350px; height: 250px;">
+  <span class="cat-desc">Explore our selection of articles, carefully chosen to offer insights into bath and shower products.</span>
+</div><br/><br/>
+
+<style>
+  @media only screen and (min-width: 820px) and (max-width: 1920px) {
+    .cat-header {
+      display: flex;
+      align-items: center; /* Align items vertically */
+      gap: 70px; /* Space between image and text */
+      padding: 20px;
+      background: #f5eaed;
+      width: 1025px;
+      margin-top: -75px;
+    }
+    
+    .cat-desc {
+      font-size: 1.2em;
+      line-height: 1.5;
+      max-width: 600px; /* Optional: limits width of text */
+    }
+
+    .breadcrumbs {
+      margin-top: -55px;
+    }  
+    
+  }  /* End Desktop */
+</style>
+
+
+<h2 class="post-title" style="font-size: 40px; line-height: 20px; litext-align: center;">Showing posts for:</h2>
+<h2 class="post-label" style="font-size: 35px; line-height: 15px; text-align: center;">Bath and Shower</h2>
 
 <div id="related-posts-cat" >
   {% assign software_posts = site.posts | where_exp: "post", "post.categories contains 'Bath and Shower'" %}
