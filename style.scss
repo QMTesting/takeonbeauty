@@ -1390,29 +1390,59 @@ figcaption {
     display: inline;
   }
 
+  /* Utility classes */
+.hidden {
+  display: none !important;
+}
+
+.flex {
+  display: flex !important;
+  align-items: center;
+  gap: 5px;
+}
+
+/* Input styling */
+#mobile-search-input {
+  padding: 4px 6px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 150px;
+}
+
+/* Button styling */
+#mobile-submit-btn, #mobile-search-toggle, #mobile-search-close {
+  font-size: 18px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.mobile-header-nav {
+    display: block;
+  }
+
   .mobile-search {
-    display: inline;
-    margin-left: 150px;
+    display: flex;
+    align-items: center;
     gap: 5px;
-    position: relative;
-    width: 200px;
+    width: 100%;
+    padding: 10px;
   }
 
-  /* REMOVE display: inline here */
   #mobile-search-form {
-    margin-left: 150px;
-    gap: 5px;
-    width: 200px;
     background: #edd3da;
+    width: 100%;
   }
 
-  #mobile-search-toggle {
-    font-size: 18px;
-    background: none;
-    border: none;
-    cursor: pointer;
-    margin-left: 150px;
+  #mobile-search-input {
+    width: 100%;
+    max-width: 200px;
   }
+
+	       
+
+ 
 
    .head-home {
   display: none;
