@@ -11,8 +11,39 @@ permalink: /hair-care/
 
 <br/><br/>
 
-<h2 class="post-title" style="font-size: 40px; line-height: 40px; text-align: center;">Showing posts for:</h2>
-<h2 class="post-label" style="font-size: 35px; line-height: 35px; text-align: center;">Hair Care</h2>
+<div class="cat-header">
+  <img src="/assets/images/hair-care-category.webp" alt="Hair Care Category" style="width: 350px; height: 250px;">
+  <span class="cat-desc">Explore our selection of articles, carefully chosen to offer insights into all things hair care.</span>
+</div><br/><br/>
+
+<style>
+  @media only screen and (min-width: 820px) and (max-width: 1920px) {
+    .cat-header {
+      display: flex;
+      align-items: center; /* Align items vertically */
+      gap: 70px; /* Space between image and text */
+      padding: 20px;
+      background: #f5eaed;
+      width: 1025px;
+      margin-top: -75px;
+    }
+    
+    .cat-desc {
+      font-size: 1.2em;
+      line-height: 1.5;
+      max-width: 600px; /* Optional: limits width of text */
+    }
+
+    .breadcrumbs {
+      margin-top: -55px;
+    }  
+    
+  }  /* End Desktop */
+</style>
+
+
+<h2 class="post-title" style="font-size: 40px; line-height: 20px; text-align: center;">Showing posts for:</h2>
+<h2 class="post-label" style="font-size: 35px; line-height: 10px; text-align: center;">Hair Care</h2>
 
 <div id="related-posts-cat">
   {% assign software_posts = site.posts | where_exp: "post", "post.categories contains 'Hair Care'" %}
