@@ -1386,30 +1386,6 @@ figcaption {
      width: 350px;
    } 
 
-  .mobile-header-nav {
-    display: inline;
-  }
-
-  /* Utility classes */
-.hidden {
-  display: none !important;
-}
-
-.flex {
-  display: flex !important;
-  align-items: center;
-  gap: 5px;
-}
-
-/* Input styling */
-#mobile-search-input {
-  padding: 4px 6px;
-  font-size: 14px;
-  border-radius: 5px;
-  border: 1px solid #ccc;
-  width: 150px;
-}
-
 /* Button styling */
 #mobile-submit-btn, #mobile-search-toggle, #mobile-search-close {
   font-size: 18px;
@@ -1419,7 +1395,7 @@ figcaption {
 }
 
 .mobile-header-nav {
-    display: block;
+    display: inline-block;
   }
 
   /* Ensure toggle is visible initially */
