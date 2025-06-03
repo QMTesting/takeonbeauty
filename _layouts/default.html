@@ -364,47 +364,46 @@
 <!-- Mobile Search Toggle UI -->
 
 <script>
-document.addEventListener("DOMContentLoaded", function () {
-  const mobileToggleBtn = document.getElementById("mobile-search-toggle");
-  const mobileFormContainer = document.getElementById("mobile-search-form");
-  const mobileCloseBtn = document.getElementById("mobile-search-close");
-  const mobileInput = document.getElementById("mobile-search-input");
-  const mobileForm = document.getElementById("mobile-search-form-element");
+   document.addEventListener("DOMContentLoaded", function () {
+    const mobiletoggleBtn = document.getElementById("mobile-search-toggle");
+    const mobileformContainer = document.getElementById("mobile-search-form");
+    const mobilecloseBtn = document.getElementById("mobile-search-close");
+    const mobileinput = document.getElementById("mobile-search-input");
+    const mobileform = document.getElementById("mobile-search-form-element");
 
-  // Show the search form
-  mobileToggleBtn.addEventListener("click", function () {
-    mobileFormContainer.style.display = "flex";
-    mobileToggleBtn.style.display = "none";
-    mobileInput.focus();
+  // Show search UI
+  mobiletoggleBtn.addEventListener("click", function () {
+    mobileformContainer.style.display = "flex";
+    mobiletoggleBtn.style.display = "none";
+    mobileinput.focus();
   });
 
-  // Handle close (X) button
-  mobileCloseBtn.addEventListener("click", function () {
+  // Close (X) button
+  mobilecloseBtn.addEventListener("click", function () {
     hideSearchForm();
   });
 
-  // Handle form submission
-  mobileForm.addEventListener("submit", function (e) {
+  // Submit handler
+  mobileform.addEventListener("submit", function (e) {
     e.preventDefault();
-    const query = mobileInput.value.trim();
+
+    const query = mobileinput.value.trim();
     if (!query) return;
 
-    // Hide form elements before redirection
+    // Hide everything before redirect
     hideSearchForm();
 
-    // Redirect to results page
+    // Redirect to search results page
     window.location.href = `/search-results/?q=${encodeURIComponent(query)}`;
   });
 
-  // Function to hide everything
   function hideSearchForm() {
-    mobileFormContainer.style.display = "none";
-    mobileToggleBtn.style.display = "inline-block";
-    mobileInput.value = "";
+    mobileformContainer.style.display = "none";         // Hide form container
+    mobiletoggleBtn.style.display = "inline-block";     // Show main icon
+    mobileinput.value = "";                             // Clear text
   }
 });
- 
-</script>
+</script>  
   
 <!-- SEARCH RESULTS JAVA - MOBILE-END -->
     
