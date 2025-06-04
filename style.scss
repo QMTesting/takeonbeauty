@@ -1467,7 +1467,14 @@ figcaption {
         } 
         .desktop-header-nav {
           display: none
-        }     
+        }   
+
+	.wrapper-masthead {
+         margin-bottom: 15px;
+        }    
+	.post {
+	  margin-top: -50px;	
+	}	
 
 } /* End Mobile */
 	
