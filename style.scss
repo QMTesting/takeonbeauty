@@ -1075,7 +1075,6 @@ a {
   position: fixed;
   top: 10px;
   left: 10px;
-  background: white;
   border-radius: 5px;
   background: #edd3da;	
 }
@@ -1099,6 +1098,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background: #edd3da;	
 }
 
 /* Hide menu by default */
