@@ -2,11 +2,11 @@
 layout: post
 title: "Best Face Cream for Oily Skin"
 categories: ["Skin Care"]
-image: "/assets/images/Skin/cream-oily-skin.webp"
+image: "/assets/images/Skin/cream-for-oily-skin.webp"
 ---
 
 <figure>
-  <img src="/assets/images/Skin/cream-oily-skin.webp" alt="Cream for oily skin" />
+  <img src="/assets/images/Skin/cream-for-oily-skin.webp" alt="Cream for oily skin" />
   <figcaption>Image on Freepik</figcaption>
 </figure>
 
