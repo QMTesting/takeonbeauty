@@ -6,6 +6,6 @@ image: "/assets/images/Bath/bubble-bath-sensitive-skin.webp"
 ---
 
 <figure>
-  <img src="/assets/images/Bath/bubble-bath-sensitive-skin.webp" alt="Bubble for Sensitive Skin" />
+  <img src="/assets/images/Bath/bubble-bath-sensitive-skin.webp" alt="Bubble Bath for Sensitive Skin" />
   <figcaption>Image by Racool_studio on Freepik</figcaption>
 </figure>
