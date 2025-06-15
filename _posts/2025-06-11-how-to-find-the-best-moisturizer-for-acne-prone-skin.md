@@ -6,7 +6,7 @@ image: "/assets/images/Skin/Cream-for-acne-skin.webp"
 ---
 
 <figure>
-  <img src="/assets/images/Types/Skin/Cream-for-acne-skin.webp" alt="Find the Best Moisturizer for Acne-Prone Skin" />
+  <img src="/assets/images/Skin/Cream-for-acne-skin.webp" alt="Find the Best Moisturizer for Acne-Prone Skin" />
   <figcaption>Image on Freepik</figcaption>
 </figure>
 
